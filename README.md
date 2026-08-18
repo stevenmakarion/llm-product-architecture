@@ -99,7 +99,7 @@ far better prompt than any structured form produces.
 Each account owns a durable transcript that is **saved after every single turn**, not at
 session end, so a dropped connection loses nothing.
 
-When it fills, it is **compacted, never restarted** — summarised forward with the opening
+When it fills, it is **compacted, never restarted**, summarised forward with the opening
 context explicitly protected from the compactor, because the opening is what establishes who
 the assistant is. Compacting that away produces a subtly different product on day thirty than
 on day one, and users feel it before they can name it.
